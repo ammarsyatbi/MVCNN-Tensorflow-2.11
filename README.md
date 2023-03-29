@@ -2,7 +2,7 @@
 Converting MVCNN from pytorch to Tensorflow 2.11. Transformation is based on this [repo](https://github.com/RBirkeland/MVCNN-PyTorch).
 
 Dataset structure should be as following:
-
+```
 ./
 └── data/
     ├── train/
@@ -17,7 +17,7 @@ Dataset structure should be as following:
                 ├── img1.jpg
                 ├── img2.jpg
                 └── imgn.jpg
-
+```
 
 Train
 ```
