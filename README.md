@@ -29,7 +29,9 @@ Predict
 python predict.py --model mobilenet --model_weights path/to/model/weights --mvs path/to/image/folder
 ```
 
-```evaluate.py``` script haven't tested
+```evaluate.py``` script haven not been tested. Try at your own risk.
+
+Dockerfile follows SageMaker requirements. This is to allow TrainingJob can be called from SageMaker estimator.
 
 # Reference
 - https://github.com/RBirkeland/MVCNN-PyTorch
