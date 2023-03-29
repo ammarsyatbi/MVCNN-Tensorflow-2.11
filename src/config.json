@@ -1,0 +1,13 @@
+{
+    "class_names": [
+        "class_1",
+        "class_2",
+        "class_3",
+        "class_4"
+    ],
+    "views": 6,
+    "pretrained": "",
+    "img_size": 224,
+    "model":"mobilenet",
+    "model_weights":"../data/mvcnn/weights"
+}
